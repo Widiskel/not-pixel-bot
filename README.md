@@ -91,6 +91,7 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
 - Auto Draw in Pixel
 - Auto Complete Some Missions
 - Auto Claim Mining
+- Auto Boost (reChargeSpeed,energyLimit,paintReward)
 
 ## Setup & Configure BOT
 
