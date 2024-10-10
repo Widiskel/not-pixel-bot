@@ -223,6 +223,14 @@ if your bot get eror, with some error code `401` it mean your query expired, go 
 
 ## Note
 
+You can configure bot by opening `config.js` file and modify some of this param
+```js
+static MODE = 2; // 1 FOR 1 BY 1 RUN & 2 FOR MASS RUN
+static USEAUTOUPGRADE = true; //USE AUTO UPGRADE OR NO
+static REPAINTER = true; //USE INCORRECT COLOR REPAINTER
+static CUSTOMDELAYINMIN = undefined; //CUSTOM DELAY IN MINUTES EX : 60 = 60 minutes
+```
+
 Don't use bot with `session` type if you using telegram account that bought from someone because it can make your telegram account deleted. instead of using `session` type, use `query` type.
 
 This bot can use Telegram Query and Telegram Sessions. if you want to use sessions, and ever use one of my bot that use telegram sessions, you can just copy the `accounts` folder to this bot. Also for the telegram APP ID and Hash you can use it from another bot. If you want to use Telegram Query, get your query manually.
