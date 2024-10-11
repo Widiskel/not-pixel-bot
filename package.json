@@ -5,7 +5,7 @@
   "description": "not-pixel-bot",
   "main": "index.js",
   "scripts": {
-    "start": "ncp accounts app/accounts && ncp config app/config && node app/index.js",
+    "start": "cp -r accounts app/accounts && cp -r config app/config && node app/index.js",
     "dev": "node index.js",
     "test": "node test.js",
     "build": "rm -rf app && javascript-obfuscator --config build-config.json"
