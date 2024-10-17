@@ -229,6 +229,12 @@ static MODE = 2; // 1 FOR 1 BY 1 RUN & 2 FOR MASS RUN
 static USEAUTOUPGRADE = true; //USE AUTO UPGRADE OR NO
 static REPAINTER = true; //USE INCORRECT COLOR REPAINTER
 static CUSTOMDELAYINMIN = undefined; //CUSTOM DELAY IN MINUTES EX : 60 = 60 minutes
+static TEMPLATE = {
+   templateID: 446378180,
+   startArea: 116450,
+   endArea: 165575,
+   correctColor: "#6D482F",
+}; //configure fren template by finding the id, color, start area and end area (is a rectangle start from top left, and end on bottom right)
 ```
 
 Don't use bot with `session` type if you using telegram account that bought from someone because it can make your telegram account deleted. instead of using `session` type, use `query` type.
