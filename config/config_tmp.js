@@ -10,5 +10,5 @@ export class Config {
     startArea: 116450,
     endArea: 165575,
     correctColor: "#6D482F",
-  };
+  }; // configure fren template by finding the id, color, start area and end area (is a rectangle start from top left, and end on bottom right)
 }
