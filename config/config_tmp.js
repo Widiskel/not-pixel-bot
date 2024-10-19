@@ -6,9 +6,9 @@ export class Config {
   static REPAINTER = true; //USE INCORRECT COLOR REPAINTER
   static CUSTOMDELAYINMIN = undefined; //CUSTOM DELAY IN MINUTES EX : 60 = 60 minutes
   static TEMPLATE = {
-    templateID: 446378180,
-    startArea: 116450,
-    endArea: 165575,
-    correctColor: "#6D482F",
+    templateID: 1629992814,
+    startArea: 543872,
+    endArea: 613968,
+    correctColor: "#FF3881",
   }; // configure fren template by finding the id, color, start area and end area (is a rectangle start from top left, and end on bottom right)
 }
