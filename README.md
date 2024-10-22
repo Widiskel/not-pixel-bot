@@ -107,7 +107,7 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
    ```
 2. Run
    ```
-   npm install
+   npm install && npm run setup
    ```
 3. Run
    ```
@@ -117,25 +117,20 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
    ```
    mkdir -p accounts
    ```
-5. Run
-   ```
-   cp config/config_tmp.js config/config.js && cp config/proxy_list_tmp.js config/proxy_list.js
-   ```
-6. (If You Use Telegram Sessions) To configure the app, run
+5. (If You Use Telegram Sessions) To configure the app, run
    ```
    nano config/config.js
    ```
    and add your telegram app id and hash there.
-7. (If You Use Proxy) To configure the app, run
+6. (If You Use Proxy) To configure the app, run
    ```
    nano config/proxy_list.js
    ```
    and add your proxy listh there.
-8. to start the app run
+7. to start the app run
    ```
    npm run start
    ```
-9. if any error regarding `config.js` not found, or `proxy_list.js` not found, try to copy `config` folder to `app` folder. make sure you have those file inside `config` folder.
 
 ### Windows
 
@@ -150,7 +145,7 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
    ```
 3. Run
    ```
-   npm instal
+   npm instal && npm run setup
    ```
 4. Run
    ```
@@ -158,7 +153,7 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
    ```
 5. Navigate to `not-pixel-bot` directory.
 6. Make new folder named `accounts`.
-7. Navigate to `config` folder and rename `config_tmp.js` to `config.js` also `proxy_list_tmp.js` to `proxy_list.js`.
+7. Navigate to `config` folder and configure  `config.js` also `proxy_list.js`.
 8. Now Open and configure `config.js`.
 9. Now back to the `not-pixel-bot` folder
 10. To start the app open your `Command Prompt` or `Power Shell` again and run
