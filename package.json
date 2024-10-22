@@ -5,7 +5,8 @@
   "description": "not-pixel-bot",
   "main": "index.js",
   "scripts": {
-    "start": "shx cp -r accounts app/accounts && shx cp -r config app/config && node app/index.js",
+    "start": "node start.js",
+    "setup": "node setup.js",
     "dev": "node index.js",
     "test": "node test.js",
     "build": "rm -rf app && javascript-obfuscator --config build-config.json"
@@ -32,7 +33,6 @@
     "ncp": "^2.0.0",
     "telegram": "^2.22.2",
     "twisters": "^1.1.0",
-    "winston": "^3.13.0",
-    "shx": "^0.3.3"
+    "winston": "^3.13.0"
   }
 }
