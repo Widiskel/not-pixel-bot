@@ -220,7 +220,6 @@ if your bot get eror, with some error code `401` it mean your query expired, go 
 
 You can configure bot by opening `config.js` file and modify some of this param
 ```js
-static MODE = 2; // 1 FOR 1 BY 1 RUN & 2 FOR MASS RUN
 static USEAUTOUPGRADE = true; //USE AUTO UPGRADE OR NO
 static REPAINTER = true; //USE INCORRECT COLOR REPAINTER
 static CUSTOMDELAYINMIN = undefined; //CUSTOM DELAY IN MINUTES EX : 60 = 60 minutes
